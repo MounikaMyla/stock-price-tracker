@@ -48,6 +48,7 @@ def send_mail(parameter,percent):
 
 import csv
 name=request.GET['stock_name']
+print("hello to git")
 per=request.GET['percent']
 L=[name,per]
 fi=open("CSVstockList.csv")
